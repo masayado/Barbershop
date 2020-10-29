@@ -4,6 +4,10 @@
   padding: 0;
 }
 
+.m0-auto {
+  margin: 0 auto;
+}
+
 button.post-btn {
   background-color: #6C6E70;
   color: #FFF;
@@ -69,6 +73,30 @@ nav.navbar .nav-item a:hover {
   font-size: 3.5em;
 }
 
+.post-pagination {
+  background-color: #D1D1D1;
+}
+.post-pagination .pagination .pagination-item {
+  color: #6C6E70;
+  transition: 0.3s;
+}
+.post-pagination .pagination .pagination-item:hover {
+  background-color: #6C6E70;
+  color: #FFF;
+}
+.post-pagination .pagination .pagination-item__previous {
+  border-top-left-radius: 40px !important;
+  border-bottom-left-radius: 40px !important;
+}
+.post-pagination .pagination .pagination-item__next {
+  border-top-right-radius: 40px !important;
+  border-bottom-right-radius: 40px !important;
+}
+.post-pagination .pagination .pagination-item__active {
+  background-color: #6C6E70;
+  color: #FFF;
+}
+
 .post {
   border-bottom: 1px solid #D1D1D1;
   width: 100%;
@@ -92,6 +120,32 @@ nav.navbar .nav-item a:hover {
 .text-pink {
   color: #DE8684;
   font-weight: 400;
+}
+
+.author .author__photo {
+  overflow: hidden;
+  border-radius: 50%;
+  border: solid 1px #D1D1D1;
+}
+.author .author__info {
+  width: inherit;
+}
+.author .author__info h2 {
+  font-family: "Playfair Display", serif;
+  font-weight: 900;
+  font-style: italic;
+}
+.author .author__comment {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #6C6E70;
+  line-height: 200%;
+}
+@media (max-width: 768px) {
+  .author .author__info {
+    text-align: center;
+  }
 }
 
 /*!

@@ -1,0 +1,29 @@
+.post-pagination{
+    background-color: $light-gray;
+
+.pagination{
+.pagination-item{
+    color: $nickel;
+    transition: .3s;
+&:hover{
+    background-color: $nickel;
+    color: $white;
+    }
+}
+
+.pagination-item__previous{
+    border-top-left-radius: 40px !important;
+    border-bottom-left-radius: 40px !important;
+    }
+
+.pagination-item__next{
+    border-top-right-radius: 40px !important;
+    border-bottom-right-radius: 40px !important;
+    }
+
+.pagination-item__active{
+    background-color: $nickel;
+    color: $white;
+    }
+}
+}

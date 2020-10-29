@@ -24,3 +24,35 @@
     color: $ruddy-pink;
     font-weight: 400;
 }
+
+.author{
+
+.author__photo{
+    overflow: hidden;
+    border-radius: 50%;
+    border: solid 1px $light-gray;
+    }
+
+.author__info{
+    width: inherit;
+    h2{
+        font-family: $playfair-display;
+        font-weight: 900;
+        font-style: italic;
+        }
+    }
+
+.author__comment{
+    font-family: $roboto;
+    font-weight: 400;
+    font-size: $medium;
+    color: $nickel;
+    line-height: 200%;
+}
+
+@media (max-width: 768px) {
+    .author__info{
+        text-align: center;
+    }
+    }   
+}
