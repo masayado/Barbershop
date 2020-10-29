@@ -1,160 +1,4 @@
 @charset "UTF-8";
-* {
-  margin: 0;
-  padding: 0;
-}
-
-.m0-auto {
-  margin: 0 auto;
-}
-
-button.post-btn {
-  background-color: #6C6E70;
-  color: #FFF;
-  border: solid 1px #6C6E70;
-  padding: 1em 1.5em;
-  border-radius: 2em;
-  transition: 0.3s;
-  font-size: 0.9em;
-}
-button.post-btn:hover {
-  background-color: #D1D1D1;
-  color: #FFF;
-  border: solid 1px #D1D1D1;
-}
-button.post-btn:focus {
-  background-color: #6C6E70;
-  color: #FFF;
-}
-
-nav.navbar {
-  background-color: #121619;
-  line-height: 50px;
-}
-nav.navbar .nav-logo {
-  height: 35px;
-}
-nav.navbar .nav-item__active {
-  color: #DE8684 !important;
-}
-nav.navbar .hamburger-menu {
-  font-size: 1.5em;
-}
-nav.navbar .nav-item a {
-  font-family: "Roboto", sans-serif;
-  font-size: 16px;
-}
-nav.navbar .nav-item a:hover {
-  color: #DE8684 !important;
-}
-
-.main-header {
-  background: url("../img/post-image.jpg");
-  width: 100%;
-  height: 100vh;
-  background-size: cover;
-}
-.main-header .main-header__title {
-  font-family: "Playfair Display", serif;
-  font-weight: 900;
-  font-style: italic;
-  font-size: 4rem;
-}
-@media (max-width: 768px) {
-  .main-header .main-header__title {
-    font-size: 3rem;
-  }
-}
-.main-header .main-header__arrows {
-  font-size: 3em;
-  transition: 0.3s;
-}
-.main-header .main-header__arrows:hover {
-  font-size: 3.5em;
-}
-
-.post-pagination {
-  background-color: #D1D1D1;
-}
-.post-pagination .pagination-item {
-  color: #6C6E70;
-  transition: 0.3s;
-}
-.post-pagination .pagination-item:hover {
-  background-color: #6C6E70;
-  color: #FFF;
-}
-.post-pagination .pagination .pagination-item__previous {
-  border-top-left-radius: 40px !important;
-  border-bottom-left-radius: 40px !important;
-}
-.post-pagination .pagination .pagination-item__next {
-  border-top-right-radius: 40px !important;
-  border-bottom-right-radius: 40px !important;
-}
-.post-pagination .pagination .pagination-item__active {
-  background-color: #6C6E70;
-  color: #FFF;
-}
-
-.footer {
-  background-color: #121619;
-}
-.footer-logo img {
-  height: 40px;
-}
-
-.post {
-  border-bottom: 1px solid #D1D1D1;
-  width: 100%;
-}
-
-.content-post {
-  min-height: 100vh;
-}
-.content-post .content-post__date {
-  color: #6C6E70;
-  font-family: "Playfair Display", serif;
-  font-weight: 400;
-}
-.content-post .content-post__text {
-  font-family: "Roboto", sans-serif;
-  font-size: 16px;
-  font-weight: 300;
-  line-height: 200%;
-}
-
-.text-pink {
-  color: #DE8684;
-  font-weight: 400;
-}
-
-.author__photo {
-  overflow: hidden;
-  border-radius: 50%;
-  border: solid 1px #D1D1D1;
-}
-.author__info {
-  width: inherit;
-}
-.author__info h2 {
-  font-family: "Playfair Display", serif;
-  font-weight: 900;
-  font-style: italic;
-}
-.author .author__comment {
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
-  font-size: 16px;
-  color: #6C6E70;
-  line-height: 200%;
-}
-@media (max-width: 768px) {
-  .author .author__info {
-    text-align: center;
-  }
-}
-
 /*!
  * Bootstrap v4.5.0 (https://getbootstrap.com/)
  * Copyright 2011-2020 The Bootstrap Authors
@@ -10063,6 +9907,161 @@ h3 {
   .table .thead-dark th {
     color: inherit;
     border-color: #dee2e6;
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.m0-auto {
+  margin: 0 auto;
+}
+
+button.post-btn {
+  background-color: #6C6E70;
+  color: #FFF;
+  border: solid 1px #6C6E70;
+  padding: 1em 1.5em;
+  border-radius: 2em;
+  transition: 0.3s;
+  font-size: 0.9em;
+}
+button.post-btn:hover {
+  background-color: #D1D1D1;
+  color: #FFF;
+  border: solid 1px #D1D1D1;
+}
+button.post-btn:focus {
+  background-color: #6C6E70;
+  color: #FFF;
+}
+
+nav.navbar {
+  background-color: #121619;
+  line-height: 50px;
+}
+nav.navbar .nav-logo {
+  height: 35px;
+}
+nav.navbar .nav-item__active {
+  color: #DE8684 !important;
+}
+nav.navbar .hamburger-menu {
+  font-size: 1.5em;
+}
+nav.navbar .nav-item a {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+}
+nav.navbar .nav-item a:hover {
+  color: #DE8684 !important;
+}
+
+.main-header {
+  background: url("../img/post-image.jpg");
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+}
+.main-header .main-header__title {
+  font-family: "Playfair Display", serif;
+  font-weight: 900;
+  font-style: italic;
+  font-size: 4rem;
+}
+@media (max-width: 768px) {
+  .main-header .main-header__title {
+    font-size: 3rem;
+  }
+}
+.main-header .main-header__arrows {
+  font-size: 3em;
+  transition: 0.3s;
+}
+.main-header .main-header__arrows:hover {
+  font-size: 3.5em;
+}
+
+.post-pagination {
+  background-color: #D1D1D1;
+}
+.post-pagination .pagination-item {
+  color: #6C6E70;
+  transition: 0.3s;
+}
+.post-pagination .pagination-item:hover {
+  background-color: #6C6E70;
+  color: #FFF;
+}
+.post-pagination .pagination .pagination-item__previous {
+  border-top-left-radius: 40px !important;
+  border-bottom-left-radius: 40px !important;
+}
+.post-pagination .pagination .pagination-item__next {
+  border-top-right-radius: 40px !important;
+  border-bottom-right-radius: 40px !important;
+}
+.post-pagination .pagination .pagination-item__active {
+  background-color: #6C6E70;
+  color: #FFF;
+}
+
+.footer {
+  background-color: #121619;
+}
+.footer-logo img {
+  height: 40px;
+}
+
+.post {
+  border-bottom: 1px solid #D1D1D1;
+  width: 100%;
+}
+
+.content-post {
+  min-height: 100vh;
+}
+.content-post .content-post__date {
+  color: #6C6E70;
+  font-family: "Playfair Display", serif;
+  font-weight: 400;
+}
+.content-post .content-post__text {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 200%;
+}
+
+.text-pink {
+  color: #DE8684;
+  font-weight: 400;
+}
+
+.author__photo {
+  overflow: hidden;
+  border-radius: 50%;
+  border: solid 1px #D1D1D1;
+}
+.author__info {
+  width: inherit;
+}
+.author__info h2 {
+  font-family: "Playfair Display", serif;
+  font-weight: 900;
+  font-style: italic;
+}
+.author .author__comment {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #6C6E70;
+  line-height: 200%;
+}
+@media (max-width: 768px) {
+  .author .author__info {
+    text-align: center;
   }
 }
 

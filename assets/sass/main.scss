@@ -1,6 +1,9 @@
 //Variables
 @import "abstracts/variables";
 
+//Vendors
+@import "vendors/bootstrap-4.5.0/bootstrap.scss";
+
 //Base
 @import "base/reset";
 @import "base/typography";
@@ -16,6 +19,3 @@
 
 //Pages
 @import "pages/blogpost";
-
-//Vendors
-@import "vendors/bootstrap-4.5.0/bootstrap.scss";
