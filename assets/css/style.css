@@ -25,6 +25,31 @@ nav.navbar .nav-item a:hover {
   color: #DE8684 !important;
 }
 
+.main-header {
+  background: url("../img/post-image.jpg");
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+}
+.main-header .main-header__title {
+  font-family: "Playfair Display", serif;
+  font-weight: 900;
+  font-style: italic;
+  font-size: 4rem;
+}
+@media (max-width: 768px) {
+  .main-header .main-header__title {
+    font-size: 3rem;
+  }
+}
+.main-header .main-header__arrows {
+  font-size: 3em;
+  transition: 0.3s;
+}
+.main-header .main-header__arrows:hover {
+  font-size: 3.5em;
+}
+
 /*!
  * Bootstrap v4.5.0 (https://getbootstrap.com/)
  * Copyright 2011-2020 The Bootstrap Authors
