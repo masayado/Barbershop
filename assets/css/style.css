@@ -4,6 +4,25 @@
   padding: 0;
 }
 
+button.post-btn {
+  background-color: #6C6E70;
+  color: #FFF;
+  border: solid 1px #6C6E70;
+  padding: 1em 1.5em;
+  border-radius: 2em;
+  transition: 0.3s;
+  font-size: 0.9em;
+}
+button.post-btn:hover {
+  background-color: #D1D1D1;
+  color: #FFF;
+  border: solid 1px #D1D1D1;
+}
+button.post-btn:focus {
+  background-color: #6C6E70;
+  color: #FFF;
+}
+
 nav.navbar {
   background-color: #121619;
   line-height: 50px;
@@ -48,6 +67,31 @@ nav.navbar .nav-item a:hover {
 }
 .main-header .main-header__arrows:hover {
   font-size: 3.5em;
+}
+
+.post {
+  border-bottom: 1px solid #D1D1D1;
+  width: 100%;
+}
+
+.content-post {
+  min-height: 100vh;
+}
+.content-post .content-post__date {
+  color: #6C6E70;
+  font-family: "Playfair Display", serif;
+  font-weight: 400;
+}
+.content-post .content-post__text {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 200%;
+}
+
+.text-pink {
+  color: #DE8684;
+  font-weight: 400;
 }
 
 /*!

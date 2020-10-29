@@ -9,11 +9,13 @@
 @import "components/buttons";
 
 //Layout
-
 @import "layout/navigation";
 @import "layout/header";
 @import "layout/pagination";
 @import "layout/footer";
+
+//Pages
+@import "pages/blogpost";
 
 //Vendors
 @import "vendors/bootstrap-4.5.0/bootstrap.scss";

@@ -1,0 +1,26 @@
+.post{
+    border-bottom: 1px solid $light-gray;
+    width: 100%;
+}
+
+.content-post{
+    min-height: 100vh;
+
+.content-post__date{
+    color: $nickel;
+    font-family: $playfair-display;
+    font-weight: 400;
+    }
+
+.content-post__text{
+    font-family: $roboto;
+    font-size: $medium;
+    font-weight: 300;
+    line-height: 200%;
+    }
+}
+
+.text-pink{
+    color: $ruddy-pink;
+    font-weight: 400;
+}
