@@ -27,13 +27,13 @@
 
 .author{
 
-.author__photo{
+&__photo{
     overflow: hidden;
     border-radius: 50%;
     border: solid 1px $light-gray;
     }
 
-.author__info{
+&__info{
     width: inherit;
     h2{
         font-family: $playfair-display;

@@ -2,7 +2,7 @@
     background-color: $light-gray;
 
 .pagination{
-.pagination-item{
+&-item{
     color: $nickel;
     transition: .3s;
 &:hover{

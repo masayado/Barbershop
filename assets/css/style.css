@@ -76,11 +76,11 @@ nav.navbar .nav-item a:hover {
 .post-pagination {
   background-color: #D1D1D1;
 }
-.post-pagination .pagination .pagination-item {
+.post-pagination .pagination-item {
   color: #6C6E70;
   transition: 0.3s;
 }
-.post-pagination .pagination .pagination-item:hover {
+.post-pagination .pagination-item:hover {
   background-color: #6C6E70;
   color: #FFF;
 }
@@ -95,6 +95,13 @@ nav.navbar .nav-item a:hover {
 .post-pagination .pagination .pagination-item__active {
   background-color: #6C6E70;
   color: #FFF;
+}
+
+.footer {
+  background-color: #121619;
+}
+.footer-logo img {
+  height: 40px;
 }
 
 .post {
@@ -122,15 +129,15 @@ nav.navbar .nav-item a:hover {
   font-weight: 400;
 }
 
-.author .author__photo {
+.author__photo {
   overflow: hidden;
   border-radius: 50%;
   border: solid 1px #D1D1D1;
 }
-.author .author__info {
+.author__info {
   width: inherit;
 }
-.author .author__info h2 {
+.author__info h2 {
   font-family: "Playfair Display", serif;
   font-weight: 900;
   font-style: italic;
