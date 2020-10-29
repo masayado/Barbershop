@@ -1,0 +1,26 @@
+nav.navbar{
+    background-color: $eerie-black;
+    line-height: 50px;
+
+.nav-logo{
+    height: 35px;
+    }
+
+.nav-item__active{
+    color: $ruddy-pink !important;
+    }
+
+.hamburger-menu{
+    font-size: 1.5em;
+    } 
+
+.nav-item{
+    a{
+        font-family: $roboto;
+        font-size: $medium;
+    &:hover{
+        color: $ruddy-pink !important;
+        }
+        }
+    } 
+}

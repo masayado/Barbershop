@@ -1,4 +1,30 @@
 @charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+}
+
+nav.navbar {
+  background-color: #121619;
+  line-height: 50px;
+}
+nav.navbar .nav-logo {
+  height: 35px;
+}
+nav.navbar .nav-item__active {
+  color: #DE8684 !important;
+}
+nav.navbar .hamburger-menu {
+  font-size: 1.5em;
+}
+nav.navbar .nav-item a {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+}
+nav.navbar .nav-item a:hover {
+  color: #DE8684 !important;
+}
+
 /*!
  * Bootstrap v4.5.0 (https://getbootstrap.com/)
  * Copyright 2011-2020 The Bootstrap Authors
@@ -9908,10 +9934,6 @@ h3 {
     color: inherit;
     border-color: #dee2e6;
   }
-}
-* {
-  margin: 0;
-  padding: 0;
 }
 
 /*# sourceMappingURL=style.css.map */
